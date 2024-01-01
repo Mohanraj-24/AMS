@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+@font-face {
+	font-family: "Billabong";
+	src: url("../includes/fonts/Billabong.ttf")
+}
+
+nav{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 60px;
+	width: 100%;
+	background-color: #333;
+	text-align: center;
+}
+html, body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	padding: 0;
+	/* background-color: #525252; */
+	color: white;
+	font-size: 20px;
+}
+
+#camagru i {
+	margin-left: 10px;
+}
+
+i {
+	margin-right: 10px;
+}
+
+#camagru {
+	font-family: "Billabong";
+	/* font-size: 24px; */
+}
+
+#login-button{
+	background: #222d32;
+}
+
+#register-button{
+	background: #222d32;
+}
+
+#unregister-button{
+	background: #222d32;
+}
+
+#logout-button{
+	background: #3C8DBC;
+	height: 70px;
+	/* vertical-align: middle; */
+	/* margin-top: 20px; */
+}
+
+#logout-button .fa-sign-out {
+	line-height: 60px;
+}
+
+#logout-bar{
+	background: #222d32;
+	vertical-align: middle;
+	/* margin-top: 20px; */
+}
+
+.login-button{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #222d32;
+	font-size: 18px;
+	color: white;
+	border-left: 1px solid black;
+	text-align: center;
+}
+.login-button:hover{
+	background: #ca3e47;
+}
+.logout-button{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #222d32;
+	font-size: 18px;
+	color: white;
+	border-left: 1px solid black;
+}
+.logout-button:hover{
+	background: #ca3e47;
+}
+.register-button{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #3C8DBC;
+	font-size: 18px;
+	color: white;
+	border-left: 1px solid black;
+	text-align: center;
+}
+.register-button:hover{
+	background: #ca3e47;
+}
+.unregister-button{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #3C8DBC;
+	font-size: 18px;
+	color: white;
+	border-left: 1px solid black;
+}
+.unregister-button:hover{
+	background: #ca3e47;
+}
+#current-user{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	padding-top: 5px;
+	margin: 0;
+	border-right: 1px solid black;
+}
+#storefront-container{
+	position: absolute;
+	width: 8vw;
+	height: 60px;
+	float: left;
+	border-right: 1px solid black;
+}
+#storefront{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	margin-right: 12px;
+	margin-top: 6px;
+}
+.redirect{
+	color: white;
+	text-decoration: none;
+	width: 8vw;
+}
+
+#form {
+	float: right;
+	text-align: center;
+	margin-top: 15px;
+    padding-right: 280px;
+	line-height: 90px;
+	visibility: visible;
+}
+
+#logo {
+	margin-top: 4px;
+	width: 8vw;
+	height: 3vh;
+}
+
+input{
+	filter: none;
+	background-color: #3C8DBC
+}
+
+.cam-dark-grey {
+	background-color: #3C8DBC
+}
+
+.cam-head {
+	font-size: 30px;
+}
+
+.cam-black {
+	background-color: #3C8DBC;
+}
+
+.cam-blue {
+	background: #222d32;
+}
+
+.cam-red {
+	background: #5f6263;
+}
+
+.cam-white {
+	background-color: #c3d1d7;
+}
+
+#profile-button{
+	background: #222d32;
+}
+
+#image-button{
+	background: #222d32;
+}
+
+#pref-button{
+	background: #222d32;
+}
+
+#gallery-button{
+	background: #222d32;
+}

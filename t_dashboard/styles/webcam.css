@@ -1,0 +1,89 @@
+.video-wrap {
+    /* height: 540px;
+    width: 720px; */
+    width: 100%;
+    margin: auto;
+}
+
+.webcam
+{
+    -webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+#main {
+	min-height: calc(100vh - 74px);
+}
+
+.scroll {
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scroll img {
+    height: 128px;
+    width: 128px;
+    padding: 14px;
+}
+
+#scrollwrap {
+    width: 50%;
+}
+
+h3 {
+	color:black;
+	/* margin-top: 20px;
+	margin-left: 20px; */
+}
+
+#prevPost {
+	overflow: auto;
+	white-space: nowrap;
+	max-height: 900px;
+}
+
+.btn {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none; user-select:none;
+	-o-user-select:none;
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+}
+
+
+.btn:hover {
+	opacity: 1;
+}
+
+/* layering for preview for webcam */
+
+.webcamcontainer {
+	display: grid;
+	background-color: white;
+}
+
+#video{
+	grid-column: 1;
+	grid-row: 1;
+	position: relative;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+  
+#preview{
+	grid-column: 1;
+	grid-row: 1;
+	position: relative;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+html { 
+	/* background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+	background-color: #f0f5f9;
+}
+
+#main {
+	min-height: calc(100vh - 74px);
+}
+
+h1{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+input[type=button]{
+	height: 100%;
+	width: 100px;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	background-color: #313131;
+	border: none;
+	border-spacing: 0;
+	border-width: 1px;
+}
+input[type=button]:hover{
+	background-color: #ca3e47;
+}
+input[type=button]:focus{
+	box-shadow:inset 0px -5px #ca3e47;
+}
+.register-form {
+	font-family: 'Source Sans Pro', sans-serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	right: 15px;
+	z-index: 5;
+}
+/* .form-container {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none; user-select:none;
+	-o-user-select:none;
+	width: 300px;
+	position: fixed;
+	top: 15vh;
+	padding: 10px;
+	color: #1e2022;
+	background-color: #c9d6df;
+	box-shadow: 4px 4px 3px #bbc2c7;
+} */
+#login input[type=text], #login input[type=password], #login input[type=email] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 12px 0;
+	border: none;
+	color: black;
+	background: #edf0f2;
+}
+input[type=password], input[type=password], input[type=email] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 12px 0;
+	border: none;
+	color: black;
+	background: #edf0f2;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+	/* background-color: #4d4d4d; */
+	outline: none;
+}
+.form-container .btn {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none; user-select:none;
+	-o-user-select:none;
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+}
+.form-container .cancel {
+	background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+}
+#error{
+	margin-top: -5px;
+	font-size: 14px;
+	color: red;
+}
+
+b {
+	margin-left: 8px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #52616b;
+	text-align: right;
+ }
+.footer p{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	margin: 0;
+	margin-right: 15px;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+hr{
+	color: #52616b;
+}

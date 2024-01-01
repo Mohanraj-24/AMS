@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+html { 
+	/* background: url(../images/background.jpg) no-repeat center center fixed;  */
+	/* -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+	background-color: #edf0f2;
+}
+
+body {
+	margin: 0px;
+}
+
+h1{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+/* #new-user {
+	margin: 0;
+	padding-right: 7px;
+	float: right;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+} */
+
+#main {
+	min-height: calc(100vh - 74px);
+}
+
+#new-user a {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(169, 93, 255);
+	text-decoration: none;
+}
+
+#forgotten a {
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(169, 93, 255);
+	font-size: 15px;
+	text-decoration: none;
+}
+input[type=button]{
+	height: 100%;
+	width: 100px;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	background-color: #fff;
+	border: none;
+	border-spacing: 0;
+	border-width: 1px;
+}
+input[type=button]:hover{
+	background-color: #ca3e47;
+}
+input[type=button]:focus{
+	box-shadow:inset 0px -5px #ca3e47;
+}
+#login-form {
+	font-family: 'Source Sans Pro', sans-serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	right: 15px;
+	z-index: 5;
+}
+/* .form-container {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none; user-select:none;
+	-o-user-select:none;
+	width: 300px;
+	position: fixed;
+	top: 15vh;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #1e2022;
+	background-color: #c9d6df;
+	box-shadow: 4px 4px 3px #bbc2c7;
+} */
+.form-container input[type=text], .form-container input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 12px 0;
+	border: none;
+	color: black;
+	background: #edf0f2;
+}
+.form-container input[type=password], .form-container input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 12px 0;
+	border: none;
+	color: black;
+	background: #edf0f2;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+	outline: none;
+}
+.form-container .btn {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none; user-select:none;
+	-o-user-select:none;
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+}
+.form-container .cancel {
+	background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+}
+#error{
+	margin-top: -5px;
+	font-size: 14px;
+	color: red;
+}
+.inputTextColor:-webkit-autofill {
+	-webkit-text-fill-color: #edf0f2;
+}
+input{
+	filter: none;
+	background-color: #edf0f2
+}
+
+b {
+	margin-left: 8px;
+}
+
+#forgotten {
+	width: 175px;
+	height: 25px;
+	text-align: right;
+	margin-left: 100px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #52616b;
+	text-align: right;
+ }
+.footer p{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	margin: 0;
+	margin-right: 15px;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+hr{
+	color: #52616b;
+}
+
+#pw-form {
+	font-family: 'Source Sans Pro', sans-serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	right: 15px;
+	z-index: 6;
+}
+
+#forgot {
+	margin-top: 80px;
+}
+
+.reset-container {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none; user-select:none;
+	-o-user-select:none;
+	width: 300px;
+	position: fixed;
+	top: 15vh;
+	padding: 10px;
+	color: #1e2022;
+	background-color: #c9d6df;
+}
+.reset-container input[type=text], .reset-container input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 12px 0;
+	border: none;
+	color: black;
+	background: #edf0f2;
+}
+.reset-container input[type=password], .reset-container input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 12px 0;
+	border: none;
+	color: black;
+	background: #edf0f2;
+}
+.reset-container input[type=text]:focus, .reset-container input[type=password]:focus {
+	outline: none;
+}
+.reset-container .btn {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none; user-select:none;
+	-o-user-select:none;
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+}
+.reset-container .cancel {
+	background-color: red;
+}
+.reset-container .btn:hover, .open-button:hover {
+	opacity: 1;
+}
